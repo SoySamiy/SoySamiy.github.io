@@ -1,0 +1,210 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: url(../assets/img/blue-4k-halo-tyt5jucmmssj36kb.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    background-color: #426bc4;
+}
+
+
+h2{
+    font-size: 4rem;
+    color: #f3f3f3;
+    letter-spacing: 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+                0 0 15px #73ff00,
+                0 0 15px #eeff00,
+                0 0 20px  #c2f50b;
+}
+
+h2.Lineal.html{
+    color: #62ccfd;
+}
+
+
+p{
+    font-size: 1.1rem;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.footer{
+    color: #e7dcc6;
+    padding: 20px;
+    text-align: left;
+}
+
+
+.footer-links a:hover{
+    color: #19111a
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #545858af;
+    text-align: center;
+    text-indent: 30px;
+}
+
+.bi{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.Avatar{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.navbar-brand{
+    font-family: "Russo One", sans-serif;
+    font-weight: 600px;
+    font-style: normal;
+    color: #000000;
+}
+
+.social-login-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, #00000055);
+  }
+  .social-login-icons svg {
+    width: ¡40px;
+  }
+  
+  .social-icon-1,
+  .social-icon-1-1,
+  .social-icon-2,
+  .social-icon-2-2,
+  .social-icon-3,
+  .social-icon-3-3,
+  .social-icon-4,
+  .social-icon-4-4,
+  .social-icon-5,
+  .social-icon-5-5 {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px 0 0px 0;
+  }
+  
+  .icon svg {
+    fill: #c3cfe9;
+  }
+  
+  .socialcontainer {
+    height: 80px;
+    overflow: hidden;
+  }
+  .social-icon-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0);
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  }
+  .social-icon-1 svg,
+  .social-icon-2 svg,
+  .social-icon-3 svg,
+  .social-icon-4 svg,
+  .social-icon-5 svg {
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-delay: 0.2s;
+  }
+  .social-icon-1-1 {
+    transition-duration: 0.4s;
+    background-color: rgb(0, 0, 0, 0);
+  }
+  .socialcontainer:hover .social-icon-1 {
+    transform: translateY(-70px);
+  }
+  .socialcontainer:hover .social-icon-1 svg,
+  .socialcontainer:hover .social-icon-2 svg,
+  .socialcontainer:hover .social-icon-3 svg,
+  .socialcontainer:hover .social-icon-4 svg,
+  .socialcontainer:hover .social-icon-5 svg {
+    opacity: 1;
+  }
+  .social-icon-2 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: linear-gradient(
+      72.44deg,
+      #ff7a00 11.92%,
+      #ff0169 51.56%,
+      #d300c5 85.69%
+    );
+  }
+  .socialcontainer:hover .social-icon-2 {
+    transform: translateY(-70px);
+  }
+  .social-icon-3 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: #0267ff;
+  }
+  
+  .socialcontainer:hover .social-icon-3 {
+    transform: translateY(-70px);
+  }
+  .social-icon-4 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+  
+    background: linear-gradient(
+      180deg,
+      rgba(129, 34, 144, 1) 0%,
+      rgba(77, 34, 124, 1) 91%
+    );
+  }
+  
+  .socialcontainer:hover .social-icon-4 {
+    transform: translateY(-70px);
+  }
+
+  .social-icon-5 {
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier(0.46, -0.78, 0.5, 1.56);
+    background: linear-gradient(
+      180deg,
+      rgb(201, 0, 0) 0%,
+      rgb(124, 34, 34) 91%
+    )
+  }
+  
+  .socialcontainer:hover .social-icon-5 {
+    transform: translateY(-70px);
+  }
+
+  .card-body{
+    background-color: #ffffff;
+  }
+
+  .card-text{
+    color: #000000;
+  }
+
+.card{
+  background-color: #53a00b;
+  align-content: center;
+  object-position:100 right;
+}
+
+iframe{
+  justify-content: center;
+}
